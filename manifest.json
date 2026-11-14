@@ -8,6 +8,8 @@
   "orientation": "landscape",
   "background_color": "#000000",
   "theme_color": "#ff0033",
+  "dir": "ltr",
+  "lang": "en",
   "categories": [
     "games",
     "strategy"
@@ -69,10 +71,34 @@
   "related_applications": [],
   "iarc_rating_id": "urn:iarc:us/12345",
   "display_override": [
+    "tabbed",
     "window-controls-overlay",
     "standalone",
     "minimal-ui"
   ],
-  "id": "/world-war-crash-king/",
-  "lang": "en"
+  "protocol_handlers": [
+    {
+      "protocol": "web+worldwar",
+      "url": "/world-war-crash-king/?protocol=%s"
+    }
+  ],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "scope_extensions": [
+    {
+      "origin": "https://mambhablack300-gif.github.io"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "/world-war-crash-king/",
+      "accept": {
+        "application/json": [
+          ".json"
+        ]
+      }
+    }
+  ],
+  "id": "/world-war-crash-king/"
 }
