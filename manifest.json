@@ -24,6 +24,14 @@
       "sizes": "512x512"
     }
   ],
+  "screenshots": [
+    {
+      "src": "https://via.placeholder.com/640x360.png?text=Game+Screenshot",
+      "type": "image/png",
+      "sizes": "640x360",
+      "form_factor": "wide"
+    }
+  ],
   "id": "/world-war-crash-king/",
   "lang": "en"
 }
