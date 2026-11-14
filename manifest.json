@@ -1,0 +1,19 @@
+{
+  "name": "World War Crash King",
+  "short_name": "WW Crash",
+  "start_url": "/world-war-crash-king/",
+  "scope": "/world-war-crash-king/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#000000",
+  "theme_color": "#ff0033",
+  "icons": [
+    {
+      "src": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bc15e6b2-8ce8-4304-96d7-c28e4163792e/id-preview-bcef4576--8c911c1c-929a-4284-a2f8-43816a655578.lovable.app-1777880658861.png",
+      "type": "image/png",
+      "sizes": "1920x1080"
+    }
+  ],
+  "id": "/world-war-crash-king/",
+  "lang": "en"
+}
