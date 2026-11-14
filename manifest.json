@@ -1,0 +1,29 @@
+{
+  "name": "World War Crash King",
+  "short_name": "Ww Crash",
+  "description": "World War Crash Modern Military Strategy Game",
+  "start_url": "/world-war-crash-king/",
+  "scope": "/world-war-crash-king/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#000000",
+  "theme_color": "#ff0033",
+  "categories": [
+    "games",
+    "strategy"
+  ],
+  "icons": [
+    {
+      "src": "https://pwabuilder.com/assets/images/icon_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://pwabuilder.com/assets/images/icon_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "id": "/world-war-crash-king/",
+  "lang": "en"
+}
