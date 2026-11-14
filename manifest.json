@@ -18,12 +18,14 @@
     {
       "src": "https://via.placeholder.com/192x192.png?text=WWC",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "https://via.placeholder.com/512x512.png?text=WWC",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "screenshots": [
@@ -68,7 +70,12 @@
     "client_mode": "auto"
   },
   "prefer_related_applications": false,
-  "related_applications": [],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://mambhablack300-gif.github.io/world-war-crash-king/manifest.json"
+    }
+  ],
   "iarc_rating_id": "urn:iarc:us/12345",
   "display_override": [
     "tabbed",
