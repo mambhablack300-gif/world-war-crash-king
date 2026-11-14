@@ -14,12 +14,12 @@
   ],
   "icons": [
     {
-      "src": "https://pwabuilder.com/assets/images/icon_192.png",
+      "src": "https://via.placeholder.com/192x192.png?text=WWC",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://pwabuilder.com/assets/images/icon_512.png",
+      "src": "https://via.placeholder.com/512x512.png?text=WWC",
       "type": "image/png",
       "sizes": "512x512"
     }
