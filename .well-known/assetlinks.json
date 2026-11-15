@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.mambhablack300_gif.twa",
+    "sha256_cert_fingerprints": ["97:B8:6B:0C:1F:56:78:41:54:B5:02:16:79:90:C5:A8:B2:7D:0A:18:E5:18:DD:40:C3:7F:98:56:22:DF:C1:91"]
+  }
+}]
