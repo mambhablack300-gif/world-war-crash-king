@@ -46,4 +46,93 @@
     {
       "name": "Play Game",
       "short_name": "Play",
-      "description": "
+      "description": "Launch World War Crash King",
+      "url": "/world-war-crash-king/",
+      "icons": [
+        {
+          "src": "https://via.placeholder.com/96x96.png?text=Play",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/world-war-crash-king/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "launch_handler": {
+    "client_mode": "auto"
+  },
+  "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://mambhablack300-gif.github.io/world-war-crash-king/manifest.json"
+    }
+  ],
+  "iarc_rating_id": "urn:iarc:us/12345",
+  "display_override": [
+    "tabbed",
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+worldwar",
+      "url": "/world-war-crash-king/?protocol=%s"
+    }
+  ],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "scope_extensions": [
+    {
+      "origin": "https://mambhablack300-gif.github.io"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "/world-war-crash-king/",
+      "accept": {
+        "application/json": [
+          ".json"
+        ]
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "name": "World War Crash Widget",
+      "short_name": "WWC Widget",
+      "description": "Quick launch widget for World War Crash King",
+      "tag": "wwc-widget",
+      "template": "wwc-widget-template",
+      "ms_ac_template": "wwc-widget.json",
+      "data": "/world-war-crash-king/widget-data.json",
+      "screenshots": [
+        {
+          "src": "https://via.placeholder.com/640x360.png?text=Widget",
+          "sizes": "640x360",
+          "label": "Widget Preview"
+        }
+      ],
+      "icons": [
+        {
+          "src": "https://via.placeholder.com/96x96.png?text=W",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "note_taking": {
+    "client_mode": "new-client"
+  },
+  "id": "/world-war-crash-king/"
+}
